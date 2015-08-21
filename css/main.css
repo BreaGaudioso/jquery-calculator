@@ -1,13 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:700|Orbitron);
 
 body {
-  background: #71B66F;
+  background: #888888;
   padding: 20px;
   width: 100%;
 }
 
 #calculator {
-  background: #2B3D50;
+  background: #DC2E8D;
   border-radius: 20px;
   padding: 15px;
   width: 335px;
@@ -22,10 +22,11 @@ body {
 }
 
 #screen {
-  background: #EF5D5D;
+  background: #181619;
   border: none;
   font-family: 'Orbitron', sans-serif;
   font-size: 1.4em;
+  color:#F44870;
   font-weight: 600;
   height: 17px;
   padding: 15px;
@@ -38,7 +39,7 @@ body {
 }
 
 #cancel {
-  background: #CF7C43;
+  background: #972ED5;
   width: 147px;
 }
 
@@ -60,7 +61,7 @@ body {
 }
 
 .buttons span {
-  background: #3383D2;
+  background: #972ED5;
   border-radius: 3px;
   border: none;
   box-shadow: inset 0px 1px 0px #5E626D, 0px 5px 0px 0px #45637F;
@@ -76,7 +77,7 @@ body {
 
 .buttons span:active {
   top: 3px;
-  box-shadow: inset 0px 1px 0px #5E626D, 0px 2px 0px 0px #45637F;
+  box-shadow: inset 0px 1px 0px #5B3AD8, 0px 2px 0px 0px #45637F;
 }
 
 .operator {
